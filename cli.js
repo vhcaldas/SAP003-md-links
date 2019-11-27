@@ -1,5 +1,5 @@
 const {mdLinks} = require('./lib/index.js');
 
-const parameter = process.argv.slice(2).pop();
+const path = process.argv.slice(2).pop();
 
-mdLinks(parameter);
+mdLinks(path);
