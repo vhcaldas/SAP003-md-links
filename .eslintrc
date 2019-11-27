@@ -9,8 +9,7 @@
       "cipher": false
     },
     "rules": {
-      "indent": ["error", 2],
-      "quotes": ["error", "double"],
+      "quotes": ["error", "single"],
       "semi": ["error", "always"],
       "camelcase": ["error", { "properties": "always" }],
       "keyword-spacing": ["error", { "before": true }],
