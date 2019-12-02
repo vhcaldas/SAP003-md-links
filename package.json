@@ -1,6 +1,9 @@
 {
   "name": "md-links",
   "version": "1.0.0",
+  "bin": {
+    "md-links": "./cli.js"
+  },
   "description": "md-links",
   "main": "cli.js",
   "scripts": {
