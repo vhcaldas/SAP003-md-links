@@ -7,7 +7,7 @@
   "bin": {
     "md-links": "./cli.js"
   },
-  "description": "md-links",
+  "description": "Module that analyzes links in a markdown file and returns an array with links and their names.",
   "main": "cli.js",
   "scripts": {
     "eslint": "eslint --ext .js lib/ test/",
@@ -34,7 +34,10 @@
   "keywords": [
     "md-links"
   ],
-  "author": "Vivian Caldas",
+  "author": { 
+    "name": "Vivian Caldas",
+    "e-mail": "vivianhcaldas@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vhcaldas/SAP003-md-links/issues"
