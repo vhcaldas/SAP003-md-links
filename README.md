@@ -33,5 +33,5 @@ This application can be executed by terminal as the following example:
 md-links <path-to-file>[option]
 ```
 ```
-$md-Links ./some/example.md
+$ md-Links ./some/example.md
 ```
