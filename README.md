@@ -21,9 +21,18 @@ b. an href: the found URL.
 
 One of the requisites to use this library is to previously install Node.js on your computer. It can be acessed by https://nodejs.org/en/.  
 
-Then, the installation can be made by acessing the link ```npm install vhcaldas/md-links```.
+Then, the installation can be made by acessing the link ```npm install -g vhcaldas/SAP003-md-links```.
 
-This module can also be imported by ```require```.
+This module can also be imported by ```require```, as on this example:
+
+```sh
+> const mdlinks = require('mdlinks');
+> mdlinks('path/mdfile.md')
+  .then((link) => {
+  console.log(`${text}: ${href}`)
+})
+  //returns 'title: link'
+```
 
 ## 3. CLI (Command Line Interface)
 
