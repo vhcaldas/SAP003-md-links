@@ -1,6 +1,9 @@
 {
   "name": "md-links",
   "version": "1.0.0",
+  "jest": {
+    "verbose": true
+  },
   "bin": {
     "md-links": "./cli.js"
   },
@@ -19,7 +22,7 @@
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.1.2",
-    "jest": "^24.8.0",
+    "jest": "^24.9.0",
     "regenerator-runtime": "^0.13.1",
     "stylelint": "^10.1.0",
     "stylelint-config-recommended": "^2.2.0"
