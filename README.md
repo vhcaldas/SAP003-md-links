@@ -39,7 +39,7 @@ This module can also be imported by ```require```, as on this example:
 This application can be executed by terminal as the following example:
 
 ```
-md-links <path-to-file>[option]
+md-links <path-to-file>
 ```
 ```
 $ md-Links ./some/example.md
