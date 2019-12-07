@@ -1,8 +1,11 @@
 #!/usr/bin/env_node
 
 const mdLinks = require('./lib/index.js');
-const path = process.argv.slice(2).pop();
+const path = process.argv[2];
 
 mdLinks(path)
-    .then(result => console.log(result))
+    .then((result) => result.forEach(element => { 
+        console.log(`\nText: ${element.text} \nLink: ${element.href}`);
+        }
+    ))
     .catch (error => console.log(error));
