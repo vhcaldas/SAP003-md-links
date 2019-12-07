@@ -1,6 +1,6 @@
 # Markdown Links
 
-## Índice
+## Index
 
 * [1. Product Backlog](#1-product-backlog)
 * [2.Install](#1-install)
