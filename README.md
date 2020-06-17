@@ -11,7 +11,7 @@
 
 ## 1. Product Backlog
 
-In this project, it was created a library that can be acessed by a command line interface (CLI). The module can be imported in Node.js, and it offers an interface where you can follow an .md file to print an array with objects containing:
+In this project, it was created a library that can be accessed by a command line interface (CLI). The module can be imported in Node.js, and it offers an interface where you can follow an .md file to print an array with objects containing:
 
 a. a text: text inside the Markdown;
 
